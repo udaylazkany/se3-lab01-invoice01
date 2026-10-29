@@ -2,11 +2,12 @@ com\mycompany\firsthomework\s1\lab2\InvoiceCalculator.class
 com\mycompany\firsthomework\s1\lab2\EmailNotifier.class
 com\mycompany\firsthomework\s1\lab2\WhatsAppNotifier.class
 serviceinterface\InvoiceService.class
-com\mycompany\firsthomework\FirstHomework.class
 com\mycompany\firsthomework\InvoiceItem.class
+com\mycompany\firsthomework\s1\lab1\Main.class
 com\mycompany\firsthomework\s1\lab2\DatabaseStorage.class
 com\mycompany\firsthomework\badInvoice.class
 com\mycompany\firsthomework\s1\lab2\FileStorage.class
+com\mycompany\firsthomework\s1\lab2\Main.class
 com\mycompany\firsthomework\s1\lab2\InvoiceFormatter.class
 com\mycompany\firsthomework\s1\lab2\InvoiceItem.class
 serviceinterface\Notifier.class

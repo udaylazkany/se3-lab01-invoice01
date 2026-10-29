@@ -1,53 +1,21 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+package com.mycompany.firsthomework.s1.lab2;
 
-package com.mycompany.firsthomework;
-
-import com.mycompany.firsthomework.s1.lab2.DatabaseStorage;
-import com.mycompany.firsthomework.s1.lab2.EmailNotifier;
-import com.mycompany.firsthomework.s1.lab2.FileStorage;
-import static com.mycompany.firsthomework.s1.lab2.FileStorage.getFILES;
-import com.mycompany.firsthomework.s1.lab2.Invoice;
-import com.mycompany.firsthomework.s1.lab2.InvoiceCalculator;
-import com.mycompany.firsthomework.s1.lab2.InvoiceFormatter;
+import java.util.List;
 import serviceinterface.InvoiceService;
 import serviceinterface.Notifier;
 import serviceinterface.Storage;
-import com.mycompany.firsthomework.s1.lab2.WhatsAppNotifier;
-import java.util.List;
-
 
 /**
  *
  * @author asus
  */
-public class FirstHomework {
-  
+public class Main {
     public static void main(String[] args) {
-             badInvoice inv=new badInvoice("INV-1", "lina@uni.edu");
-          inv.addItem("Book", 100, 2);
-           System.out.println("--- Invoice 1 ---");
-            System.out.println(inv.printInvoice());
-          System.out.println(inv.saveToDatabase("DATABASE"));
-               System.out.println(inv.sendEmail());
-      
-     
          
-           System.out.println("--- Invoice 2 ---");
-            badInvoice inv0=new badInvoice("INV-2", "uday@uni.edu");
-            inv0.addItem("pines", 100, 2);
-            System.out.println(inv0.printInvoice());  
-            System.out.println(inv0.saveToDatabase("FILES"));
-                    System.out.print(inv0.sendWhatsapp());
-              
-                    
-                    System.out.println("/////////////////");
-                 System.out.println(getFILES());
-                 System.out.println("********************");
-            
-      
-       
         InvoiceCalculator calculator = new InvoiceCalculator();
         InvoiceFormatter formatter = new InvoiceFormatter(calculator);
         
@@ -117,7 +85,6 @@ public class FirstHomework {
                           + calculator.calculateTotal(inv2) 
                           + calculator.calculateTotal(inv3);
         System.out.println("GRAND TOTAL: " + String.format("%.2f", grandTotal));
+    
     }
 }
-
-
