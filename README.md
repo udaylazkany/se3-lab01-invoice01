@@ -1,5 +1,6 @@
 [Doc1.pdf](https://github.com/user-attachments/files/34154820/Doc1.pdf)
-
+1718011461 عدي لاذقاني 
+1719034012 اليان المخول
 "اليان ظافر المخول جداول و حسابات
 عدي ابراهيم لاذقاني كود"
 <img width="722" height="682" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/df570436-a309-424e-9ad6-15646b32e1f2" />
